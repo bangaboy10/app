@@ -1,5 +1,8 @@
 import streamlit as st
-from app import processor, database, models, utils
+import processor
+import database
+import models
+import utils
 from io import BytesIO
 
 st.title("📄 Receipt & Bill Analyzer")
